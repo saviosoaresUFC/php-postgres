@@ -1,0 +1,43 @@
+*{
+    background-image: url("https://multarte.com.br/wp-content/uploads/2018/12/fundo-branco.png");
+    align-items: center;
+    justify-content: center;
+    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #949494;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #515151;
+    cursor: pointer;
+}
